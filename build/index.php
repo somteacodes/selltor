@@ -197,12 +197,10 @@
                     <p class="text-2xl font-bold text-gray-800">Modern Loft, with customized balcony</p>
                     <p class="text-xs text-gray-700 flex">
                         <img src="img/address_icon.svg" alt="" class="pr-4">
-
                         No 43b, Back Side Estate, Tame Street, Wuse, Abuja.
                     </p>
 
                 </div>
-
                 <!-- divider -->
                 <hr class="bg-gray-400 mt-2 mb-6">
 
@@ -211,38 +209,28 @@
                     <p class="text-sm text-gray-800">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
                         assumenda similique non animi et porro voluptas.</p>
                 </div>
-
                 <!-- facility -->
                 <div class="text-left ml-4 mb-4 flex items-baseline text-gray-800">
                     <p class="font-bold mr-4"> Facilities:</p>
                     <p class="text-xs"> 2 Beds | 2 Baths | Balcony</p>
                 </div>
-
                 <!-- price -->
                 <div class="flex justify-between mb-4 mx-4">
                     <div class="text-left  mb-4 flex items-baseline text-gray-800">
                         <p class="font-bold"> Price:</p>
                         <p class="font-bold text-secondary text-base">&#x20A6; 5,000,000</p>
                     </div>
-
                     <!-- button -->
                     <span class="bg-primary font-bold px-8 py-2 rounded-full w-auto text-white hover:bg-accent">
                         Rent</span>
                 </div>
-
-
             </div>
 
-
         </div>
-
-
-
-
     </div>
 
-
-
+    <!-- sign in and register modal -->
+    <?php include 'includes/login_modal.php'?>
 
 
 
