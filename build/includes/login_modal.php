@@ -1,4 +1,4 @@
-<div class="modal h-full w-full fixed top-0 left-0 flex items-center justify-center">
+<div class="hidden modal h-full w-full fixed top-0 left-0 flex items-center justify-center">
 
 
     <!-- the overlay -->
