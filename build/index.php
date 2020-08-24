@@ -233,86 +233,15 @@
     <?php include 'includes/login_modal.php'?>
 
     <!-- bottom -->
-
-    <div class="grid grid-cols-1 lg:grid-cols-4 bg-primary lg:px-16 px-4 pb-4 pt-6">
-
-        <div class="">
-            <img src="img/logo_big.svg" alt="Selltor" class="w-32">
-
-            <p class="text-white text-xd pt-6">
-                Selltor is all in one properties In ut odio libero, at vulputate urna. Nulla tristique mi a massa
-                convallis cursus. Nulla eu mi magna.
-            </p>
-
-        </div>
-
-        <div class="lg:col-span-2 lg:text-right pt-8 pr-16">
-            <p class="font-bold text-white mb-4">Quick links</p>
-            <div class="underline">
-                <p><a href="#" class="text-accent font-bold text-base">About us</a></p>
-                <p><a href="#" class="text-accent font-bold text-base">Services</a></p>
-                <p> <a href="#" class="text-accent font-bold text-base">Team</a></p>
-            </div>
-        </div>
-
-
-
-        <div class="pt-6">
-            <p class="font-bold text-white mb-4">Contact us</p>
-            <a href="#" class="rounded-full bg-white bg-opacity-50 py-4 px-8 text-white text-sm flex items-center mb-4">
-                <img src="img/mail_icon.svg" alt="envelope icon" class="h-4 w-4 mr-4">
-                email@selltor.domain
-            </a>
-            <a href="#" class="rounded-full bg-white bg-opacity-50 py-4 px-8 text-white text-sm flex items-center mb-4">
-                <img src="img/phone_icon.svg" alt="envelope icon" class="h-4 w-4 mr-4">
-                Phone: +234 803 000 0000
-            </a>
-            <a href="#" class="rounded-full bg-white bg-opacity-50 py-4 px-8 text-white text-sm flex items-center mb-4">
-                <img src="img/address_contact_icon.svg" alt="envelope icon" class="h-4 w-4 mr-4">
-                Address: Martian Street, Great
-                Ave, Abuja, Nigeria.
-            </a>
-        </div>
-    </div>
+    <?php include 'includes/bottom.php';?>
     <!-- bottom end -->
 
     <!-- footer -->
-    <div class="bg-black lg:flex justify-between py-4 px-4 lg:px-16">
-        <div class="mb-4">
-
-            <p class="text-white">
-
-                &copy; <a href="#" class="text-secondary">Somteacodes</a> 2020. All rights reserved
-            </p>
-        </div>
-
-        <div class="flex items-center">
-            <p class="text-secondary text-xs mr-4">
-                <a href="#">Terms of Use</a> |
-                <a href="#">Privacy Terms</a>
-            </p>
-
-            <!-- select input -->
-            <div class="relative">
-                <select name="currecy" id="currency"
-                    class="text-white font-bold py-3 px-4 rounded bg-opacity-50 bg-white appearance-none focus:outline-none pr-6">
-                    <option style="color:#FCA311" value="Naira">&#x20A6; Naira</option>
-                    <option style="color:#FCA311" value="USD">USD</option>
-                    <option style="color:#FCA311" value="EUR">EUR</option>
-
-                </select>
-
-                <div class="absolute flex items-center right-0 inset-y-0 px-2">
-                    <img src="img/pointer_down.svg" alt="">
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <?php include 'includes/footer.php';?>
     <!--  footer end-->
 
 
-
+    <script src="js/util.js"></script>
 </body>
 
 </html>

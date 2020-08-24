@@ -6,13 +6,14 @@
                 a
                 shelter</button>
 
-            <div class="lg:flex items-center text-white ml-4">
-                <img src="img/user_icon.svg" alt="">
+            <a href="#" class="modal-open">
+                <div class="lg:flex items-center text-white ml-4">
+                    <img src="img/user_icon.svg" alt="">
 
-                <p>Sign in / Register</p>
-            </div>
+                    <p>Sign in / Register</p>
+                </div>
 
-
+            </a>
 
             <a href="#" class="lg:hidden">
                 <img src="img/hamburger_menu.svg" alt="">

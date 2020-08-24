@@ -1,4 +1,4 @@
-<div class="hidden modal h-full w-full fixed top-0 left-0 flex items-center justify-center">
+<div class="hidden modal-container h-full w-full fixed top-0 left-0 flex items-center justify-center">
 
 
     <!-- the overlay -->
@@ -74,7 +74,8 @@
                         <button class="bg-accent hover:bg-secondary-hover text-white font-bold py-2 px-8 rounded-full">
                             Register
                         </button>
-                        <a href="#" class="underline text-secondary-hover text-xs">Click here to sign in</a>
+                        <a href="#" class="switch-register underline text-secondary-hover text-xs">Click here to sign
+                            in</a>
                     </div>
 
                 </form>
@@ -99,7 +100,7 @@
 
 
         <!-- Sign in form -->
-        <div class="register-form grid lg:grid-cols-2">
+        <div class="sign-form grid lg:grid-cols-2">
 
             <!-- Sign in left side -->
             <div class="hidden lg:inline m-4 pt-64 px-16 relative rounded-lg shadow z-0 bg-cover bg-no-repeat"
@@ -157,7 +158,8 @@
                         <button class="bg-secondary-hover hover:bg-accent text-white font-bold py-2 px-8 rounded-full">
                             Sign in
                         </button>
-                        <a href="#" class="underline text-secondary-hover text-xs">Click here to register</a>
+                        <a href="#" class="switch-sign underline text-secondary-hover text-xs">Click here to
+                            register</a>
                     </div>
 
                 </form>
